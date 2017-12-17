@@ -1,15 +1,16 @@
 /*
 
-1. [x] Setup 4 premade buttons
-2. [] 
-3. [] Capture input value
-4. [] Generate button into #btn-area
-5. [] Make button ajax call to giphy api
-
+1. [x] Setup a renderButton function to render the array
+2. [x] Setup an onclick to take the text from the input and push it into the array (recall render function)
+3. []
+4. []
+5. []
 */
 
 // initial array of gifs
 var gifs = ["adam sandler", "charlie day", "keanu reeves", "chris pratt"];
+
+
 
 // function to render buttons
 function renderButtons() {
@@ -26,4 +27,18 @@ function renderButtons() {
         $("#btn-area").append(a);
     }
 }
+// function to add searches to buttons
+$(".find-gif").on("click", function (event) {
+    event.preventDefault()
+    //grab the text
+    var gif = $(".add-gif").val().trim();
+    //push to array
+    gifs.push(gif);
+    console.log(gifs);
+    // re-rendering buttons
+    renderButtons();
+    // clearing form after submit
+    $(".add-gif").val("Search for...");
+})
+
 renderButtons();

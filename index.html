@@ -18,16 +18,34 @@
 
 <body>
     <div class="jumbotron text-center">
-        <h1>Hello, world!</h1>
-        <p>...</p>
+        <h1>Giphy Generator</h1>
+        <!-- DISPLAY BUTTONS HERE -->
         <div id="btn-area">
-                <a class="btn btn-primary btn-sm" role="button">Learn more</a>
-                <a class="btn btn-primary btn-sm" role="button">Learn more</a>
-                <a class="btn btn-primary btn-sm" role="button">Learn more</a>
-                <a class="btn btn-primary btn-sm" role="button">Learn more</a>
+            <a class="btn btn-primary btn-sm" role="button"></a>
+            <a class="btn btn-primary btn-sm" role="button"></a>
+            <a class="btn btn-primary btn-sm" role="button"></a>
+            <a class="btn btn-primary btn-sm" role="button"></a>
         </div>
     </div>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+            </div>
+            <!-- /col -->
+        </div>
+        <!-- /row -->
+        <div class="row">
+            <!-- DISPLAY GIFS HERE -->
+            <div class="col-xs-12 gif-area"></div>
+        </div>
+    </div>
+    <!-- /container -->
 
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>

@@ -1,0 +1,14 @@
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.gifContainer {
+    display: inline-block;
+    margin: 1%;
+    max-width: 50%;
+}
+
+.gif-area {
+    overflow: hidden;
+}

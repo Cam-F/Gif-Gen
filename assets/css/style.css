@@ -1,6 +1,23 @@
+html {
+    background-color: #b9808f;
+}
+
+body {
+    background-color: #b9808f;
+    font-family: 'VT323', monospace;
+}
+
 p {
     text-align: center;
     font-weight: bold;
+}
+
+.gifBtn {
+    background-color: #f8f2da;
+    border-color: black;
+    color: black;
+    font-family: 'VT323', monospace;
+    margin: .5%;
 }
 
 .gifContainer {
@@ -13,6 +30,8 @@ p {
     margin-top: 2%;
 }
 
-/* .gif {
-    margin: 1%;
-} */
+.jumbotron {
+    background-image: url("../images/jumbobg.gif");
+    background-position: 5% 85%;
+    background-size: 100%;
+}

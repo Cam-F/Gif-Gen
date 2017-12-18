@@ -2,7 +2,7 @@
 
 1. [x] Setup a renderButton function to render the array
 2. [x] Setup an onclick to take the text from the input and push it into the array (recall render function)
-3. [] AJAX call on the array
+3. [x] AJAX call on the array
 4. []
 5. []
 */

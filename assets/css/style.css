@@ -10,5 +10,9 @@ p {
 }
 
 .gif-area {
-    overflow: hidden;
+    margin-top: 2%;
 }
+
+/* .gif {
+    margin: 1%;
+} */
